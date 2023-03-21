@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karimould/dotmsg-ts.git"
+    "url": "https://github.com/karimould/dotmsg.git"
   },
   "keywords": [
     "msg",

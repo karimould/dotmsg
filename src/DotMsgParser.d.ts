@@ -1,4 +1,4 @@
-declare module "dotmsg-js" {
+declare module "dotmsg" {
   export class DotMsgParser {
     constructor();
     parseBuffer(input: Uint8Array | Buffer): Promise<void>;
