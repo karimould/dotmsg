@@ -44,14 +44,17 @@ main();
 
 The main class for parsing .msg files.
 
-async parseBuffer(input: Buffer | Uint8Array): Promise<void>
 Parses a .msg file from a Buffer or Uint8Array input.
+
+```javascript
+async parseBuffer(input: Buffer | Uint8Array): Promise<void>
+```
+
+Get the plain text content of the email.
 
 ```javascript
 getTextContent(): string | undefined
 ```
-
-Get the plain text content of the email.
 
 getHTMLContent(): string | undefined
 Get the HTML content of the email.
