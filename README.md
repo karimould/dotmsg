@@ -56,67 +56,124 @@ Get the plain text content of the email.
 getTextContent(): string | undefined
 ```
 
-getHTMLContent(): string | undefined
 Get the HTML content of the email.
 
-getSenderEmail(): string | undefined
+```javascript
+getHTMLContent(): string | undefined
+```
+
 Get the sender's email address.
 
-getSenderName(): string | undefined
+```javascript
+getSenderEmail(): string | undefined
+```
+
 Get the sender's name.
 
-getSubject(): string | undefined
+```javascript
+getSenderName(): string | undefined
+```
+
 Get the subject of the email.
 
-getSentDate(): string | undefined
+```javascript
+getSubject(): string | undefined
+```
+
 Get the sent date of the email.
 
-getReceivedDate(): string | undefined
+```javascript
+getSentDate(): string | undefined
+```
+
 Get the received date of the email.
 
-getReceivedByEmail(): string | undefined
+```javascript
+getReceivedDate(): string | undefined
+```
+
 Get the email address of the recipient.
 
-getReceivedByName(): string | undefined
+```javascript
+getReceivedByEmail(): string | undefined
+```
+
 Get the name of the recipient.
 
-getCC(): string[] | undefined
+```javascript
+getReceivedByName(): string | undefined
+```
+
 Get the CC recipients of the email.
 
-getPriority(): string | undefined
+```javascript
+getCC(): string[] | undefined
+```
+
 Get the priority of the email.
 
-getTo(): string | undefined
+```javascript
+getPriority(): string | undefined
+```
+
 Get the TO recipients of the email.
 
-getBCC(): string[] | undefined
+```javascript
+getTo(): string | undefined
+```
+
 Get the BCC recipients of the email.
 
-getReplyTo(): string | undefined
+```javascript
+getBCC(): string[] | undefined
+```
+
 Get the reply-to address of the email.
 
-getImportance(): string | undefined
+```javascript
+getReplyTo(): string | undefined
+```
+
 Get the importance level of the email.
 
-getDeliveryReceiptRequested(): string | undefined
+```javascript
+getImportance(): string | undefined
+```
+
 Get whether a delivery receipt was requested for the email.
 
-getAttachments(): Attachment[]
+```javascript
+getDeliveryReceiptRequested(): string | undefined
+```
+
 Get the attachments of the email.
+
+```javascript
+getAttachments(): Attachment[]
+```
 
 ### Attachment
 
 A class representing an email attachment.
 
-constructor(filename: string, data: Buffer)
 Create a new Attachment instance.
 
-filename: string
+```javascript
+constructor(filename: string, data: Buffer)
+```
+
 The filename of the attachment.
 
-data: Buffer
+```javascript
+getFilename(): string;
+```
+
 The attachment data as a Buffer.
 
-## License
+```javascript
+getData(): Buffer;
+```
 
-MIT 📄
+## License 📄
+
+MIT
